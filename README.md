@@ -46,13 +46,21 @@ Training: The CNN model is trained on the dataset.
 **Evaluation and Visualization:** After training, the model is evaluated on the test set, and visualizations of training history (accuracy and loss) are plotted.
 
 **Steps**
+
 **Load Data:** Load the metadata CSV and image files.
+
 **Preprocess Images:** Resize the images, normalize pixel values, and encode labels.
+
 **EDA:** Visualize the distribution of skin conditions and display a few random images.
+
 **Split Data:** Split the data into training and test sets.
+
 **Model Building:** Build a CNN model using Keras.
+
 **Train the Model**: Train the model using the training data.
+
 **Evaluate:** Evaluate the model's performance on the test set.
+
 **Visualization:** Plot training and validation accuracy/loss curves.
 
 **Model Training**
